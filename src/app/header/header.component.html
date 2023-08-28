@@ -1,0 +1,20 @@
+<!-- MENU ENCABEZADO -->
+<div class="contenedor-header" id="contenedor-header">
+  <header>
+    <div class="logo">
+      <a href="#">Franco Villarruel</a>
+    </div>
+    <nav id="nav">
+      <ul>
+        <li><a href="#" (click)="seleccionar('inicio')">INICIO</a></li>
+        <li><a href="#" (click)="seleccionar('sobremi')">SOBRE MI</a></li>
+        <li><a href="#" (click)="seleccionar('skills')">SKILLS</a></li>
+        <li><a href="#" (click)="seleccionar('formación')">FORMACIÓN</a></li>
+        <li><a href="#" (click)="seleccionar('portfolio')">PORTAFOLIO</a></li>
+        <li><a href="#" (click)="seleccionar('contacto')">CONTACTO</a></li>
+      </ul>
+    </nav>
+    <div class="nav-responsive" (click)="mostrarOcultarMenu()">
+      <i class="fa-solid fa-bars"></i>        </div>
+  </header>
+</div>
