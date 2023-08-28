@@ -241,6 +241,24 @@
   100%{width: 55%;}
 }
 
+.skills .skill .angular-animation{
+  width: 0%;
+  animation: angularAnimation 2s forwards;
+}
+@keyframes angularAnimation {
+  0%{width: 0%;}
+  100%{width: 50%;}
+}
+
+.skills .skill .sql-animation{
+  width: 0%;
+  animation: sqlAnimation 2s forwards;
+}
+@keyframes sqlAnimation {
+  0%{width: 0%;}
+  100%{width: 80%;}
+}
+
 .skills .skill .comunicacion-animation{
   width: 0%;
   animation: comunicacionAnimation 2s forwards;
